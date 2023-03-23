@@ -1,0 +1,182 @@
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+    margin: 0px;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: darkolivegreen;
+  }
+  
+  
+  header h1 {
+    text-align: left;
+    padding-left: 20px;
+    line-height: 55px;
+    font-size: 1.5em;
+  }
+
+  .font24-bold {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .font16-regular {
+    /* Portfolio/16px-Regular */
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+  }
+
+  .font16-regular-button {
+    /* Portfolio/16px-Regular */
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Portfolio/White */
+
+    color: #FFFFFF;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 48px;
+    gap: 10px;
+    
+    width: 155px;
+    height: 46px;
+    
+    /* Portfolio/Green */
+    
+    background: #296A65;
+    border-radius: 50px;
+    
+    /* オートレイアウト内部 */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .name {
+    width: 200px;
+    height: 74px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Portfolio/Black */
+
+    color: #000000;
+
+
+    /* オートレイアウト内部 */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .head-side {
+    /* オートレイアウト */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    width: 305px;
+    height: 40px;
+
+
+    /* オートレイアウト内部 */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .head-side2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    margin-right: 60px;
+
+    width: 508px;
+    height: 46px;
+
+
+    /* オートレイアウト内部 */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+    gap: 57px;
+
+    width: auto;
+    height: 80px;
+    background-color: #efefef;
+    /* オートレイアウト内部 */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .container {
+    margin: 0px 15px;
+  }
+  
+  .section {
+    padding-top: 30px;
+  }
+  
+  table {
+    margin: 0px auto;
+    border-spacing: 10px;
+  }
+  
+  .history {
+    margin: 0px auto;
+  }
+  
+  .history > p {
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .profile-img {
+    width: auto;
+    height: 720px;
+  }
+  
+  footer {
+    padding: 50px;
+  }
